@@ -27,6 +27,7 @@ public class Gerente extends Empleado{
     public void mostrarInfo() {
         System.out.println( " Gerente ");
         System.out.println("Nombre: " + getNombre());
+        // System.out.println(nombre); Es la forma incorrecta de acceder a datos privados de la clase derivada
         System.out.println("Salario: " + getSalario());
         System.out.println("Departamento: " + departamento);
     }
