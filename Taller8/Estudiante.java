@@ -29,4 +29,9 @@ public class Estudiante extends Persona {
         super.mostrarInfo();
         System.out.println("Matricula: " + matricula);
     }
+
+    @Override
+    public void presentarse(){
+        System.out.println("Hola, soy estudiante");
+    }
 }
