@@ -17,6 +17,16 @@ public class PruebaCuentaBancaria {
 
         // System.out.println(cuenta1.numeroCuenta); 
         // Al tratar de acceder a los datos de numero de cuenta provoca un error de compilación
-        // ya que es private numeroCuenta es un dato privateS
+        // ya que es private numeroCuenta es un dato private
+
+        System.out.println("  ");
+
+        System.out.println("Numero de cuenta actual: " + cuenta1.getNumeroCuenta());
+
+        cuenta1.setNumeroCuenta(" ");
+
+        cuenta1.setNumeroCuenta("S891011");
+
+        System.out.println("Nuevo numero de cuenta: " + cuenta1.getNumeroCuenta());
     }
 }
