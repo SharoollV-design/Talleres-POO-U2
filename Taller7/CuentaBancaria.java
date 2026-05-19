@@ -24,6 +24,21 @@ public class CuentaBancaria {
         System.out.println("Saldo actualizado");
     }
 
+    public String getNumeroCuenta(){
+        return numeroCuenta;
+    }
+
+    public void setNumeroCuenta(String numeroCuenta) {
+        if (numeroCuenta == null || numeroCuenta.isEmpty()){
+
+            System.out.println("El numero de cuenta no puede estar vacio");
+            return;
+        }
+
+        this.numeroCuenta = numeroCuenta;
+        System.out.println("Numero de cuenta actualizado");
+    }
+
     public void mostrarinfo(){
         
         System.out.println("== Cuentas bancarias Bancolombia ==");
