@@ -19,6 +19,6 @@ public class PruebaUtilidades {
         System.out.println("La division es 15/3 =  " + op.division(15, 3));
 
         System.out.println("\nDivision invalida ");
-        System.out.println("La division es 15/0 = " + op.division(15, 0));
+        System.out.println("La division es 9/0 = " + op.division(9, 0));
     }
 }
