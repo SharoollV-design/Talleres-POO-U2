@@ -29,7 +29,7 @@ public class CuentaBancaria {
     }
 
     public void setNumeroCuenta(String numeroCuenta) {
-        if (numeroCuenta == null || numeroCuenta.isEmpty()){
+        if (numeroCuenta == null || numeroCuenta.trim().isEmpty()){
 
             System.out.println("El numero de cuenta no puede estar vacio");
             return;
