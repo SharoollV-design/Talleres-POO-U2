@@ -23,7 +23,8 @@ public class Pez extends Animal {
         }
     }
 
-    public void mostrarInfo(){
+    @Override
+    public void mostrarEspecie(){
         super.mostrarEspecie();
 
         System.out.println("Tipo de agua: " + tipoDeAgua);
