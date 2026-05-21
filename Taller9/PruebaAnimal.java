@@ -8,5 +8,9 @@ public class PruebaAnimal {
 
         animal1.mostrarEspecie();
         pez1.mostrarEspecie();
+
+        // Si intento llamar utilizar super en una clase padre me arroja un error de compilación
+        // pasa lo mismo si lo intento hacer con un atributo private
+        // System.out.println(super.especie);
     }
 }
