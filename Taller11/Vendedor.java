@@ -25,4 +25,9 @@ public class Vendedor extends Empleado{
 
         return numeroVentas * comisionVenta;
     }
+
+    @Override 
+    public void mostrarRol(){
+        System.out.println("Soy vendedor en la empresa");
+    }
 }
