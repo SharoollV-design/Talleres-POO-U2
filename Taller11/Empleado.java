@@ -17,6 +17,10 @@ abstract  class Empleado {
             System.out.println("El espacio no debe estar vacío");
         }
     }
+
+    public void mostrarRol(){
+        System.out.println("Soy un empleado de la empresa");
+    }
     
     abstract double calcularSalario();
 
