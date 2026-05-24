@@ -22,6 +22,6 @@ abstract  class Empleado {
 
     void mostrarSalario(){
         System.out.println("Nombre del empleado: " + getNombre());
-        System.out.println("El salario actual es:");
+        System.out.println("El salario actual es: " + calcularSalario());
     }
 }
