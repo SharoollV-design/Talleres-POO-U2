@@ -23,4 +23,9 @@ public class Gerente extends Empleado {
     public double calcularSalario(){
         return salarioFijo;
     }
+
+    @Override
+    public void mostrarRol(){
+        System.out.println("Soy gerente en la empresa");
+    }
 }
