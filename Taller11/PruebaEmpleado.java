@@ -6,9 +6,14 @@ public class PruebaEmpleado {
         Empleado vendedor = new Vendedor("Viviana", 2);
 
         gerente.mostrarSalario();
+        gerente.mostrarRol();
 
         System.out.println(" ");
 
         vendedor.mostrarSalario();
+        vendedor.mostrarRol();
+
+        // Empleado empleado = new Empleado("Sofia")
+        // No se puede crear un objeto de una clase abstracta
     }
 }
