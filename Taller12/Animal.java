@@ -28,6 +28,9 @@ public class Animal implements Volador, Nadador {
         }
     }
 
+    // Si no se implmenta el método volar()
+    // Nos dicta un error en el codigo
+
     @Override
     public void volar() {
         System.out.println( nombre + " esta volando");
